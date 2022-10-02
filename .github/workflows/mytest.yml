@@ -1,1 +1,7 @@
-avadhut
+name: My First github action cicd
+on: [push]
+jobs:
+  print-hello-world:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "Hello world !!!!!"
